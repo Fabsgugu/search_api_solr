@@ -1,0 +1,13 @@
+diff --git a/search_api_solr.module b/search_api_solr.module
+index 9809fd51..5708d12a 100644
+--- a/search_api_solr.module
++++ b/search_api_solr.module
+@@ -17,7 +17,7 @@ use Drupal\search_api_solr\Form\IndexSolrMultisiteCloneForm;
+ use Drupal\search_api_solr\Form\IndexSolrMultisiteUpdateForm;
+ use Drupal\search_api_solr\SolrBackendInterface;
+ use Drupal\search_api_solr\Utility\Utility;
+-use Zend\Stdlib\ArrayUtils;
++use Laminas\Stdlib\ArrayUtils;
+ 
+ /**
+  * Implements hook_help().
